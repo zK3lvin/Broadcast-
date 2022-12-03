@@ -6,7 +6,7 @@ use pocketmine\command\{Command, CommandSender};
 use pocketmine\Server;
 use zK3lvin\Loader;
 
-class BroadCaatCommand extends Command
+class BroadCastCommand extends Command
 {
 
     public function __construct()
@@ -26,9 +26,9 @@ class BroadCaatCommand extends Command
         }
     }
 
-    public function getServer(): Server
-    {
-        return Server::getInstance();
-    }
+   # public function getServer(): Server
+    #{
+  #      return Server::getInstance();
+   # }
 }
 
