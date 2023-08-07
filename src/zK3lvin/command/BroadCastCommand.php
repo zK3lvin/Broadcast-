@@ -27,7 +27,7 @@ class BroadCastCommand extends Command
     }
 
    # public function getServer(): Server
-    #{
+    #
   #      return Server::getInstance();
    # }
 }
